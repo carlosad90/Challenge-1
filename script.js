@@ -91,7 +91,7 @@ function validaMayuscula(texto){
 
 function validaCaracter(texto){
    
-    if(texto.match(/!|ó|á|é|í|ú/)){
+    if(texto.match(/!|ó|á|é|í|ú|#|¿/)){
           
         return true
     }
